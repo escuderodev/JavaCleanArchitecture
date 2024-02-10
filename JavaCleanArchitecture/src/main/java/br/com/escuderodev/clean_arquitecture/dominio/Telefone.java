@@ -12,4 +12,17 @@ public class Telefone {
             this.numeroDeTelefone = numeroDeTelefone;
         }
     }
+
+    public String getDdd() {
+        return ddd;
+    }
+
+    public String getNumeroDeTelefone() {
+        return numeroDeTelefone;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + ddd + ") " + numeroDeTelefone;
+    }
 }

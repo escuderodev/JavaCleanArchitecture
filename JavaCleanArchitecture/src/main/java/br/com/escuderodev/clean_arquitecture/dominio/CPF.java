@@ -9,4 +9,8 @@ public class CPF {
             this.numeroDoCPF = numeroDoCPF;
         }
     }
+
+    public String getNumeroDoCPF() {
+        return numeroDoCPF;
+    }
 }

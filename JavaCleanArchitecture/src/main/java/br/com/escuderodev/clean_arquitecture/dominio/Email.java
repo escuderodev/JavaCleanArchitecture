@@ -9,7 +9,9 @@ public class Email {
         } else {
             this.enderecoDeEmail = enderecoDeEmail;
         }
-
     }
 
+    public String getEnderecoDeEmail() {
+        return enderecoDeEmail;
+    }
 }
