@@ -1,12 +1,17 @@
 package br.com.escuderodev.clean_arquitecture;
 
-import br.com.escuderodev.clean_arquitecture.dominio.Telefone;
+import br.com.escuderodev.clean_arquitecture.dominio.Aluno;
+import br.com.escuderodev.clean_arquitecture.dominio.FabricaDeAluno;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        FabricaDeAluno fabrica = new FabricaDeAluno();
+        Aluno aluno = fabrica.comNomeCpfEmail("Eduardo Escudero", "616.791.110-00", "escuderodev@gmail.com")
+                .comTelefone("11","955005284")
+                .comTelefone("11","32510687")
+                .criar();
 
-        Telefone telefone = new Telefone("011","955005284");
-        System.out.println(telefone);
+//        verificar patterns builder e Factory para implementar ordem de métodos e limitar a chamada do método comNomeCepEmail apenas uma vez
     }
+
 }
