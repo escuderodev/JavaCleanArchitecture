@@ -1,4 +1,8 @@
-package br.com.escuderodev.clean_arquitecture.dominio;
+package br.com.escuderodev.escola.domain.aluno;
+
+import br.com.escuderodev.escola.domain.componentes.CPF;
+import br.com.escuderodev.escola.domain.componentes.Email;
+import br.com.escuderodev.escola.domain.componentes.Telefone;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,16 +24,16 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, numeroDeTelefone));
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumeroDoCPF();
     }
 
     public String getNome() {
         return nome;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEnderecoDeEmail();
     }
 
     public List<Telefone> getTelefones() {

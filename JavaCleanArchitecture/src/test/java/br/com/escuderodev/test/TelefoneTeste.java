@@ -1,6 +1,6 @@
 package br.com.escuderodev.test;
 
-import br.com.escuderodev.clean_arquitecture.dominio.Telefone;
+import br.com.escuderodev.escola.domain.componentes.Telefone;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

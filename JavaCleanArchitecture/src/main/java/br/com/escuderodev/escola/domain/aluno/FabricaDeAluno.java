@@ -1,4 +1,7 @@
-package br.com.escuderodev.clean_arquitecture.dominio;
+package br.com.escuderodev.escola.domain.aluno;
+
+import br.com.escuderodev.escola.domain.componentes.CPF;
+import br.com.escuderodev.escola.domain.componentes.Email;
 
 public class FabricaDeAluno {
     private Aluno aluno;

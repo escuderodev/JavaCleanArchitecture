@@ -1,7 +1,7 @@
-package br.com.escuderodev.clean_arquitecture;
+package br.com.escuderodev.escola;
 
-import br.com.escuderodev.clean_arquitecture.dominio.Aluno;
-import br.com.escuderodev.clean_arquitecture.dominio.FabricaDeAluno;
+import br.com.escuderodev.escola.domain.aluno.Aluno;
+import br.com.escuderodev.escola.domain.aluno.FabricaDeAluno;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package br.com.escuderodev.clean_arquitecture.dominio;
+package br.com.escuderodev.escola.domain.indicacao;
+
+import br.com.escuderodev.escola.domain.aluno.Aluno;
 
 import java.time.LocalDateTime;
 
